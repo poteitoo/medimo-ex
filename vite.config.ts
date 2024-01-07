@@ -27,7 +27,7 @@ export default defineConfig({
     alias: {
       // In dev mode, make sure fast refresh works
       "/@react-refresh": path.resolve(
-        "node_modules/@vitejs/plugin-react-swc/refresh-runtime.js"
+        "node_modules/@vitejs/plugin-react-swc/refresh-runtime.js",
       ),
     },
   },
